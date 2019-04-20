@@ -47,10 +47,10 @@
         </tr>
         <tr>
             <td>
-                <input type="reset" value="清空">
+                <input type="reset" value="clear">
             </td>
             <td>
-                <input type="submit" value="注册">
+                <input type="submit" value="register">
             </td>
         </tr>
     </table>

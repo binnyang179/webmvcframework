@@ -20,7 +20,8 @@ public class WebUtils {
      */
     public static <T> T request2Bean(HttpServletRequest request, Class<T> clazz){
         try{
-            T bean = clazz.newInstance();
+//            T bean = clazz.newInstance();
+            T bean = (T) clazz;
             Enumeration<String> e = request.getParameterNames();
             while(e.hasMoreElements()){
                 String name = (String) e.nextElement();
