@@ -28,7 +28,7 @@
     <a href="${pageContext.request.contextPath}/servlet/LoginUIServlet">登陆</a>
 </c:if>
 <c:if test="${user!=null}">
-    欢迎您：${user.userName}
+    welcome：${user.userName}
     <input type="button" value="退出登陆" onclick="doLogout()">
 </c:if>
 <hr/>
